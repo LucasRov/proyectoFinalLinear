@@ -760,7 +760,7 @@ main{
 
 footer{
     grid-area: footer;
-    padding: 1%;
+    padding: 10px;
     align-items: center;
     background-color: rgb(101, 167, 253);
     display: flex;
@@ -770,7 +770,7 @@ footer{
 .derechos{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0%;
 
