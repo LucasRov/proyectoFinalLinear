@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto - Linear</title>
+
+
+ <!---------------------------------------------------------
+          LINK CSS BOOSTRAP   
+    ----------------------------------------------------------->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-----------------------------------------------------------
+          LINK CSS   
+    ------------------------------------------------------------>
+
+    <link rel="stylesheet" href="/css/estilos.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="../index.html"><img class="logo" src="https://drive.google.com/uc?export=download&id=13QzBO93rdORw0iCUZQOHsCWp3RDUOdgZ" alt=""></a>
+                  <!-- ----------------------------------------- -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase ">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light fs-5"  aria-current="page" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light fs-5" href="./servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light fs-5" href="./portafolio.html">Portafolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light fs-5" href="./contacto.html">Contacto</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="contenido4">
+            <div class="tituloContacto">
+                <h1 id="titulo">Contacto</h1>              
+                <h2>
+                    Te ayudamos a potenciar el valor del negocio, a través desarrollo de estrategias creativas, innovadoras y visualmente atractivas.
+                </h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Quos deserunt delectus quaerat suscipit,<br> tempore voluptas libero? Nesciunt possimus animi maxime corporis, dicta, <br>repellendus quos quae iusto harum minima, earum vero.
+                </p>
+            </div>
+            <!--redes sociales-->
+            <div class="cajaRedes">
+                <h3>Visita nuestras redes</h3>
+                <div class="cajaLogos">
+                    <a class="logoRedes" href="https://www.facebook.com/" ><img src="../img/facebook.png" alt="">Facebook</a>
+                    <a class="logoRedes" href="https://www.instagram.com/"><img src="../img/instagram.png" alt="">Instagram</a>
+                    <a class="logoRedes" href=""><img src="../img/likedin.png" alt="">Likedin</a>
+                </div>
+            </div>
+
+            <!--formulario-->
+            <div class="cajaFormulario">
+                <form  class="formulario">
+                    <p class="tituloFormulario">Deja tu mensaje y nos pondremos en contacto a la brevedad</p>
+                    <fieldset>
+                        <div>
+                            <label for="nombre_apellido">Nombre y apellido</label>
+                            <input type="text" name="nombre_apellido"/>
+                        </div>
+                        <div>
+                            <label for="email"> Completa tu email</label>
+                            <input type="email" required placeholder=" ejemplo@lineal.com">
+                        </div>
+
+                        <div class="tipoCliente">
+                            <p>Tipo de cliente</p>
+                            <select name="tamaño">
+                                <option value="personal">Personal</option>
+                                <option value="empresa">Empresa</option>
+                                <option value="Org sin lucro">Org. sin lucro</option>
+                            </select>
+                        </div>
+
+                        <!--cuadro de texto para completar-->
+                        <div class="textarea">
+                            <h4> Contanos en que podemos ayudarte</h4>
+                            <form action="">
+                            <textarea name="En que podemos ayudarte" cols="1em" rows="8em"></textarea>
+                        </div>
+
+                        <div class="terminosYcondiciones">
+                            <p> Acepta términos y condiciones</p>
+                            <input type="Checkbox" name="Acepta" value="1"/>
+                        </div>
+                        <div class="botones"> 
+                             <input class="boton" type="submit" value="Enviar Formulario"/>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p class="derechos">Todos los derechos reservados - LINEAR -    Lucas Rovere</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <!--    LINK JS BOOSTRAP     -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
