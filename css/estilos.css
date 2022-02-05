@@ -13,7 +13,7 @@
 
 
 body{
-    background-image: url(/img/ImagenFondo.jpg);
+    background-image: url(https://drive.google.com/uc?export=download&id=1EucIo7kj_xKSurAQTXccPrPg1xq79f3U);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -403,7 +403,7 @@ main{
         margin: 0%;
     }
        
-    .Servicios1, .Servicios2{
+    .imgServicio1, .imgServicio2{
         width: 100%;
         border-radius: 20px 20px 0px 0;
     }
