@@ -388,6 +388,30 @@ main{
     margin: 0% 10% 0%10%;
 }
 
+/*animacion presupuesto*/
+
+.imgPresupuesto{ 
+    width: 8%;
+    position: fixed;
+    top: 75%;
+    right:5%;
+    animation-name: presupuesto;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes presupuesto{
+    from{
+        transform: rotate(0.95turn);;
+    }
+
+    to{
+        transform: rotate(1.05turn);
+    }
+}
+
 /*fin main servicios*/
 
 @media screen and (max-width:1024px){
@@ -406,6 +430,10 @@ main{
     .imgServicio1, .imgServicio2{
         width: 100%;
         border-radius: 20px 20px 0px 0;
+    }
+
+    .imgPresupuesto{
+        width: 25%;
     }
 
 }
