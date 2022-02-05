@@ -140,7 +140,7 @@ main{
 }
 @media screen and (max-width:480px){
     main{
-        margin-top: 35%;
+        margin-top: 20%;
     }
 }
 
@@ -542,7 +542,7 @@ main{
 @media screen and (max-width:768px){
  
     .cajaClientes{
-        margin: 0 5% 0 5%;
+        margin: 20% 0% 0%;
     }
 
     .clientes{
@@ -553,17 +553,35 @@ main{
 
     }
 
-    .clientes > img{
-        width: 50%;
+    .cajaImg{
+        width: 100%;
+    }
+
+    .clientes > Img{
+        width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
 
+    .img1{
+        width: 40%;
+    }
+
+    .img2, .img3{
+        width: 35%;
+    }
+
+   .img2:hover, .img3:hover{
+       width: 45%;
+   }
+
     .subCajas > p{
         text-align: center;
+        font-size: 2rem;
     }
 
     .clientes > p{
         width: 80%;
+        font-size: 1rem;
     }
 }
 /*Fin Portafolio*/
@@ -728,6 +746,10 @@ main{
     .formulario{
         height: 40rem;
     }
+
+    .tipoCliente{
+        margin: 5% 0 5% 0;
+    }
 }
 
 
@@ -748,7 +770,7 @@ footer{
 .derechos{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 0%;
 
