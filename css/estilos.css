@@ -790,12 +790,14 @@ footer{
     grid-area: footer;
     padding: 10px;
     align-items: center;
-    background-color: rgb(101, 167, 253);
+    background: rgb(14,8,119);
+    background: linear-gradient(347deg, rgba(14,8,119,1) 0%, rgba(64,83,255,0.969625350140056) 0%, rgba(0,46,147,1) 76%);
     display: flex;
     justify-content: center;
 }
 
 .derechos{
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 1rem;
@@ -803,5 +805,3 @@ footer{
     margin-bottom: 0%;
 
 }
-
-/*termina footer*/
